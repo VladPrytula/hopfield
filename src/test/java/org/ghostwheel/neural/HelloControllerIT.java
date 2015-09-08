@@ -6,6 +6,7 @@ import static org.junit.Assert.assertThat;
 
 import java.net.URL;
 
+import org.ghostwheel.view.HopfieldApplication;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -32,7 +33,7 @@ public class HelloControllerIT {
 
     @Before
     public void setUp() throws Exception {
-        this.base = new URL("http://localhost:" + port + "/");
+        this.base = new URL("http://localhost:" + port + "/test");
         template = new TestRestTemplate();
     }
 

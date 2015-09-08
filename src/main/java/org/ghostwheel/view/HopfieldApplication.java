@@ -1,4 +1,4 @@
-package org.ghostwheel.neural;
+package org.ghostwheel.view;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
